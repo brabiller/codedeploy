@@ -1,5 +1,5 @@
 version: 0.0
 os: linux
-hooks:
-  AfterInstall:
-    - location: scripts/copy_apps.sh 
+files:
+  - source: config.txt
+    destination: /space/test
